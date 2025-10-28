@@ -3,12 +3,7 @@
 
 Selamat datang di repository **ESP32 Basic Code** 🎉  
 Repository ini berisi kumpulan **kode .ino** untuk menguji berbagai **komponen elektronik** menggunakan **ESP32**, 
-cocok untuk pelajar SMP/SMA hingga pemula mikrokontroler.
-
-Tujuan project ini:
-✅ Mempermudah pembelajaran mikrokontroler  
-✅ Mengenalkan cara kerja tiap sensor/aktuator  
-✅ Menjadi dasar menuju project IoT & Robotik  
+cocok untuk pemula mikrokontroler.
 
 ---
 
