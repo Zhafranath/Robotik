@@ -7,7 +7,7 @@ void setup() {
 }
 
 void loop() {
-  if (digitalRead(buttonPin) == HIGH) {
+  if (digitalRead(buttonPin) == LOW) {
     Serial.println("Tombol ditekan!");
   } else {
     Serial.println("Tombol tidak ditekan.");
