@@ -15,7 +15,10 @@ void loop()
   digitalWrite(trigPin, HIGH);
   delay(100);
   digitalWrite(trigPin, LOW);
-
+  delay(100);
+  digitalWrite(trigPin, HIGH);
+  delay(100);
+  
   durationPulse = pulseIn(echoPin, HIGH);
   distanceCm = 0.017 * durationPulse;
 
