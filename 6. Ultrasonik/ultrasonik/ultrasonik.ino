@@ -12,12 +12,11 @@ void setup()
 void loop()
 {
 
-  digitalWrite(trigPin, HIGH);
-  delay(100);
   digitalWrite(trigPin, LOW);
-  delay(100);
+  delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
-  delay(100);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
   
   durationPulse = pulseIn(echoPin, HIGH);
   distanceCm = 0.017 * durationPulse;
@@ -25,5 +24,4 @@ void loop()
   Serial.print("Distance: ");
   Serial.print(distanceCm);
   Serial.println("cm");
-  delay(100);
 }
