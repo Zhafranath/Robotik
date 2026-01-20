@@ -18,7 +18,7 @@ void loop()
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
   
-  durationPulse = pulseIn(echoPin, HIGH);
+  durationPulse = pulseIn(echoPin, HIGH, 30000);
   distanceCm = 0.017 * durationPulse;
 
   Serial.print("Distance: ");
